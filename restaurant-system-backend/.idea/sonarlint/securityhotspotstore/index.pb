@@ -9,3 +9,9 @@ V
 &src/main/java/edu/test/model/Item.java,4\e\4ee088154ca42d607b4f4da79655bd51a06d288e
 e
 5src/main/java/edu/test/controller/ItemController.java,a\f\afab809abe196dc74c87cf11371c02c9bcf9b0e1
+c
+3src/main/java/edu/test/service/ItemServiceImpl.java,1\1\1192665697b9abb2d12f1e1150c4aa6358c4e308
+_
+/src/main/java/edu/test/service/ItemService.java,7\9\7962f423eab8fe45106bdc26dbad7f5f38ec0774
+h
+8src/main/java/edu/test/service/impl/ItemServiceImpl.java,2\3\2323fcb436c949bd567dd73f027f9f8f88c7a4e7

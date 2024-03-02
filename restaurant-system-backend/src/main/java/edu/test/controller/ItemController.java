@@ -1,14 +1,27 @@
 package edu.test.controller;
 
 import edu.test.model.Item;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import edu.test.service.ItemService;
+import edu.test.service.impl.ItemServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 @RestController
+@RequestMapping("item")
 public class ItemController {
 
-    @GetMapping
-    public Item getItem(){
-        return new Item("C001","Basmathi Chicken Full Rice","Fride Rice",800);
+    @Autowired
+    ItemService itemService;
+
+    @GetMapping("/get-Item")
+    public List<Item> getItem(){
+        return itemService.getItem();
     }
+
+    @PostMapping("/add-Item")
+    public void addItem( @RequestBody  Item item){
+        itemService.addItem(item);
+    }
+
 }
