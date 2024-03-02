@@ -15,3 +15,11 @@ _
 /src/main/java/edu/test/service/ItemService.java,7\9\7962f423eab8fe45106bdc26dbad7f5f38ec0774
 h
 8src/main/java/edu/test/service/impl/ItemServiceImpl.java,2\3\2323fcb436c949bd567dd73f027f9f8f88c7a4e7
+h
+8src/main/java/edu/test/repository/StudentRepository.java,f\1\f15daa2baf7a24dabca431f7a926e459eda57754
+]
+-src/main/java/edu/test/entity/ItemEntity.java,d\9\d90d7afa6c792d28f9a8e314ec862f81ffc29468
+h
+8src/main/java/edu/test/repository/StudentReposiyory.java,0\9\09b0855dfb2a4cf72b248667d1f042af2ff127c3
+e
+5src/main/java/edu/test/repository/ItemRepository.java,3\0\301b0bb30d9a87c3e07a0555fccc4a7834e73fcb

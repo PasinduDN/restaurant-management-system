@@ -1,5 +1,6 @@
 package edu.test.controller;
 
+import edu.test.entity.ItemEntity;
 import edu.test.model.Item;
 import edu.test.service.ItemService;
 import edu.test.service.impl.ItemServiceImpl;
@@ -15,7 +16,7 @@ public class ItemController {
     ItemService itemService;
 
     @GetMapping("/get-Item")
-    public List<Item> getItem(){
+    public List<ItemEntity> getItem(){
         return itemService.getItem();
     }
 
